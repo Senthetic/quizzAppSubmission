@@ -1,0 +1,169 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+  body{
+    display:flex;
+    align-items:center;
+    color:#7E62CC;
+    font-family: 'Black Ops One', cursive;
+    background-image: url(images/background2.jpg);
+  }
+  .outside{
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+    border: 0.1em #371d0d solid;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    
+    background-image: url(images/background.jpg);
+    
+    
+  
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 31em;
+    
+  }
+  
+  .answers{
+    display:inline-block;
+    font-size: 100%;
+  }
+  /* .polishedA{
+    display:inline-block;
+  } */
+  
+  .h1{
+    border: purple;
+    
+  }
+  
+  .formA{
+    display:flex;
+    flex-direction:column;
+  }
+  .pics {
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: auto;
+    
+  }
+  .submit{
+    background: grey;
+    color:#7E62CC;
+    
+  }
+  .answers{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+  }
+  @media only screen and (min-width: 320px) {
+    /* .topMonkey {
+      width: 45%;
+    } */
+    
+    .outside {
+      width: 55%;
+      
+      margin-top:50%;
+      margin-bottom: 50%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+     .container{
+      width:55%;
+      
+    } 
+  
+     /* .formA{
+       width:40%;
+       justify-content: space-between;
+     } */
+  
+    .pics {
+      width: 85%;
+    }
+    
+    /* .button {
+      margin-top: 0.5em;
+      font-size: 1em;
+      width: 8em;
+      height: 2.5em;
+    } */
+  
+    /* h1,
+    h3,
+    legend {
+      font-size: 1em;
+    } */
+  /* 
+    .header li {
+      font-size: 1em;
+    } */
+  /* 
+    .sizeMe {
+      font-size: 0.9em;
+      margin: 0.1em;
+    } */
+  }
+  @media only screen and (min-width: 550px) {
+    
+    .outside {
+      width: 65%;
+      
+      margin-top:50%;
+      margin-bottom: 50%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+     .container{
+      width:65%;
+      
+    } 
+  
+     /* .formA{
+       width:40%;
+       justify-content: space-between;
+     } */
+  
+    .pics {
+      width: 90%;
+    } 
+  }
+  @media only screen and (min-width: 800px) {  
+    
+    .outside {
+      width: 70%;
+      
+      margin-top:50%;
+      margin-bottom: 50%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+     .container{
+      width:70%;
+      
+    } 
+  
+     /* .formA{
+       width:40%;
+       justify-content: space-between;
+     } */
+  
+    .pics {
+      width: 90%;
+    }
+  }
